@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login y Registro</title>
+</head>
+<body>
+  <h2>Iniciar Sesión</h2>
+  <form id="loginForm" method="post" action="login.php">
+    <label for="username">Usuario:</label><br>
+    <input type="text" id="username" name="username" required><br>
+    <label for="password">Contraseña:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+    <input type="submit" value="Iniciar Sesión">
+  </form>
+  
+  <h2>Crear Usuario</h2>
+  <form id="registerForm" method="post" action="register.php">
+    <label for="new_username">Nuevo Usuario:</label><br>
+    <input type="text" id="new_username" name="new_username" required><br>
+    <label for="new_password">Nueva Contraseña:</label><br>
+    <input type="password" id="new_password" name="new_password" required><br><br>
+    <input type="submit" value="Crear Usuario">
+  </form>
+</body>
+</html>
